@@ -2,6 +2,7 @@ import React from "react";
 import CurrentTemp from "./CurrentTemp";
 import Forecast from "./Forecast";
 import SourceCode from "./SourceCode";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Emoji = (props) => (
   <span
