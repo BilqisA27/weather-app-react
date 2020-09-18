@@ -1,0 +1,12 @@
+.card.w-50 {
+  border: 2px solid #1e3857;
+  height: 600px;
+}
+
+.btn.btn-outline-primary {
+  right: 1px;
+}
+
+.btn.btn-outline-primary {
+  position: relative;
+}

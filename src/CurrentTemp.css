@@ -1,0 +1,103 @@
+.card-text,
+.date,
+.current,
+.sun,
+.current-details,
+.last-updated,
+.card-subtitle,
+.temp-description,
+.cityNow {
+  position: relative;
+}
+.card-text {
+  bottom: 20px;
+}
+.sun {
+  font-size: 70px;
+  line-height: 15px;
+  bottom: 50px;
+  right: 20px;
+}
+
+.current-details .current-temp {
+  bottom: 80px;
+}
+
+#currentTemp {
+  font-size: 40px;
+}
+
+.cityNow {
+  top: -17px;
+  right: 66px;
+}
+
+.date {
+  top: -45px;
+}
+
+.last-updated {
+  top: -37px;
+  right: 76px;
+  font-size: 16px;
+}
+
+.card-subtitle {
+  top: -39px;
+  right: 103px;
+  font-size: 16px;
+}
+
+.temp-description {
+  left: 120px;
+  top: -90px;
+}
+.city {
+  font-size: 25px;
+  display: block;
+  font-family: "Fjalla One", sans-serif;
+  color: bisque;
+}
+
+.card.ml-3 {
+  max-height: 220px;
+  max-width: 300px;
+}
+
+.btn.btn-outline-success {
+  margin: 0;
+}
+.card-body.day {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.card-body {
+  background-image: linear-gradient(to top, #a3bded 0%, #476c91 100%);
+  margin: 0;
+  color: bisque;
+}
+.card-title {
+  font-size: 28px;
+  color: bisque;
+}
+
+sup {
+  font-size: 15px;
+}
+
+.emoji {
+  line-height: 2px;
+  bottom: 30px;
+  left: 270px;
+}
+
+.temp-description .active {
+  color: bisque;
+  cursor: default;
+}
+.temp-description .active:hover {
+  text-decoration: none;
+}
+
+#current-description::first-letter {
+  text-transform: uppercase;
+}

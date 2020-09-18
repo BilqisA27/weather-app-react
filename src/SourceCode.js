@@ -4,7 +4,7 @@ export default function SourceCode() {
   return (
     <div className="SourceCode">
       <a
-        href="https://github.com/BilqisA27/my-weather-app"
+        href="https://github.com/BilqisA27/weather-app-react.git"
         rel="noopener noreferrer"
         target="_blank"
       >
